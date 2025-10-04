@@ -73,7 +73,7 @@
 @keyframes flowLine {
   0% { background-position: 0% 0; }
   100% { background-position: 100% 0; }
-}
+}/*
 button {
   padding: 12px 30px;
   font-size: 16px;
@@ -90,7 +90,7 @@ button {
   overflow: hidden;
 }
 
-/* Hover effect - flowing gradient */
+/* Hover effect - flowing gradient *//*
 button:hover {
   background: linear-gradient(270deg, #26c6da, #4dd0e1, #26c6da);
   background-size: 400% 100%;
@@ -98,15 +98,15 @@ button:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 20px rgba(38, 198, 218, 0.6);
 }
-
+*/
 /* Active/Click effect */
 button:active {
   transform: scale(0.95);
   box-shadow: 0 3px 10px rgba(38, 198, 218, 0.5);
 }
 
-/* Optional: Smooth gradient animation */
+/* Optional: Smooth gradient animation *//*
 @keyframes flowButton {
   0% { background-position: 0% 0; }
   100% { background-position: 100% 0; }
-}
+}*/
